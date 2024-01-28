@@ -40,9 +40,7 @@ export const useProduct = ({ onChange, product, value = 0, initialValues }: useP
 
     useEffect(() => {
         isMounted.current = true;
-    },[])
-
-    console.log(!!initialValues?.maxCount && initialValues.count === initialValues.maxCount)
+    },[]);
 
     return ({
         counterState, 

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on ProductImage Component Loads the custom image propertly 1`] = `
+<img
+  alt="Coffee Mug"
+  className="productImg customClass"
+  src="../testpath/customimage.png"
+/>
+`;
+
+exports[`Tests on ProductImage Component Loads the product image propertly 1`] = `
+<div
+  className=" productCard undefined"
+>
+  <img
+    alt="Coffee Mug"
+    className="productImg undefined"
+    src="coffee-mug.png"
+  />
+</div>
+`;
